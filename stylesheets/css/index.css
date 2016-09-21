@@ -1,0 +1,227 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+a{
+    color: #505050;
+    text-decoration: none;
+}
+a:hover{
+    color: #FF6700;
+}
+body{
+    line-height: 1.8;
+    font-size: 12px;
+    width: 1366px;
+    color: #333333;
+    font-family: \5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+
+}
+/*------------------------------------------------------------------------------*/
+.AA{
+    width: 1366px;
+}
+.A1{
+    width: 1350px;
+    height: 61px;
+    background-image: url("../img/标题.png");
+}
+.A2{
+    height: 41px;
+    width: 1366px;
+    background: #333333;
+    float: left;
+}
+.A2 ul{
+    float: left;
+    height: 41px;
+    line-height: 41px;
+    margin-left: 46px;
+}
+.A2 ul li{
+    float: left;
+    margin-left: 16px;
+}
+.A2 ul li a{
+    display: block;
+    color: #B0B0B0;
+}
+.A2 ul li a:hover{
+    color: white;
+}
+.A2 .A3{
+    float: left;
+    margin-left: 460px;
+}
+.A2 .A3 a{
+    display: block;
+    width: 24px;
+    height: 100%;
+}
+.A2 .A4{
+    float: left;
+    width: 126px;
+    height: 100%;
+    background: #424242;
+    margin-left: 25px;
+}
+.A2 .A4 a{
+    display: block;
+    width: 126px;
+    height: 100%;
+    text-align: center;
+    line-height: 41px;
+    color: #B0B0B0;
+}
+.A2 .A4 a:hover{
+    background: white;
+    color: #FF6700;
+}
+.A2 .A4 .A5{
+    background:white;
+    height: 0;
+    width: 320px;
+    overflow: hidden;
+    position: absolute;
+    right: 78px;
+    /*下拉动画效果*/
+    transition: height 1s;
+    /*控制优先级*/
+    z-index: 999;
+}
+.A2 .A4 .A5 span{
+    display: block;
+    height: 100px;
+    width: 320px;
+    line-height: 100px;
+    text-align: center;
+}
+.A2 .A4:hover .A5{
+    border-right: 1px solid #EEEEEE ;
+    border-left: 1px solid #EEEEEE;
+    background:white;
+    height:100px;
+    width: 318px;
+    /*下拉动画效果*/
+    transition: height 1s;
+}
+
+/*************************************************************************************************/
+.nav{
+    float: left;
+    height: 102px;
+    width: 100%;
+}
+.nav .img1{
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin-left: 66px;
+    margin-top: 26px;
+}
+.nav .img2{
+    float: left;
+    width: 163px;
+    height: 66px;
+    margin-top: 21px;
+    margin-left: 16px;
+}
+.nav .list{
+    float: left;
+    width: 665px;
+    height: 101px;
+    /*line-height: 101px;*/
+    font-size: 16px;
+
+}
+.nav .list ul{
+    float: left;
+    height: 100%;
+
+}
+.nav .list ul li{
+    height: 101px;
+    margin-top: 40px;
+    width: 83px;
+}
+.nav .list .list1 .list1-1{
+    background: #fff;
+    height: 0;
+    width: 1366px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 164px;
+    /*下拉动画效果*/
+    transition: height 0s;
+    /*控制优先级*/
+    z-index: 999;
+}
+.nav .list .list1:hover .list1-1 {
+    border-top: 1px solid #E0E0E0;
+    height: 230px;
+    width: 1366px;
+/*下拉动画效果*/
+    transition: height 0s;
+}
+.nav .list .list1 .list1-1 .list2{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-left: 86px;
+    margin-top: 36px;
+}
+.nav .list .list1 .list1-1 span{
+    display: block;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    padding-left: 50px;
+}
+.nav .list .list1 .list1-1 .list3{
+    display: block;
+    font-size: 12px;
+    padding-left: 50px;
+    color: #FF6700;
+}
+.nav1{
+    width:  1228px;
+    height: 461px;
+    background-image: url("../img/黑科技.jpg");
+    float: left;
+    margin-left: 62px;
+}
+.nav1 .right{
+    width: 235px;
+    height: 461px;
+    background: #515151;
+    float: left;
+}
+.nav1 .right .right1{
+    width: 100%;
+    height: 420px;
+    margin-top: 21px;
+}
+.nav1 .right .right1 ul{
+}
+.nav1 .right .right1 ul li{
+    height: 42px;
+    line-height: 42px;
+    width: 100%;
+}
+.nav1 .right .right1 ul li a{
+    display: block;
+    height: 42px;
+    width: 195px;
+    font-size: 14px;
+    color: white;
+    padding-left: 40px;
+}
+.nav1 .right .right1 ul li a:hover{
+    background: #FF6700;
+}
